@@ -5,6 +5,6 @@
 #### // az iot hub show --query properties.eventHubEndpoints.events.endpoint --name {your IoT Hub name}
 #### // az iot hub show --query properties.eventHubEndpoints.events.path --name {your IoT Hub name}
 #### // az iot hub policy show --name service --query primaryKey --hub-name {your IoT Hub name}
-
+### 3.In the command line , execute the following : node SimulatedDevice_SendRecv.js to test the event notification.
 ![](eventgrid-hub-android.jpg)
 ![](event_push.jpg)
